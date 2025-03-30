@@ -1,21 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.bccc780e.css",
-    "main.js": "/static/js/main.03c1def8.js",
-    "static/js/453.b21437c2.chunk.js": "/static/js/453.b21437c2.chunk.js",
+    "main.css": "/static/css/main.3b09ab6d.css",
+    "main.js": "/static/js/main.3048fc55.js",
+    "static/js/206.d2c9f35b.chunk.js": "/static/js/206.d2c9f35b.chunk.js",
     "static/media/indian-culture.jpg": "/static/media/indian-culture.edebaef6053a2dcb5d61.jpg",
     "static/media/manikanta.png": "/static/media/manikanta.119c2f4f6f4064b60403.png",
     "static/media/food-order.jpg": "/static/media/food-order.b7eb2af0f4c5ec2147e4.jpg",
     "static/media/scms.jpg": "/static/media/scms.94a65147c78a82206e23.jpg",
     "static/media/github.png": "/static/media/github.b986a15565e74ccfe0e7.png",
     "static/media/linkedin.png": "/static/media/linkedin.1b9851dbcabb60a819e0.png",
-    "index.html": "/index.html",
-    "main.bccc780e.css.map": "/static/css/main.bccc780e.css.map",
-    "main.03c1def8.js.map": "/static/js/main.03c1def8.js.map",
-    "453.b21437c2.chunk.js.map": "/static/js/453.b21437c2.chunk.js.map"
+    "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.bccc780e.css",
-    "static/js/main.03c1def8.js"
+    "static/css/main.3b09ab6d.css",
+    "static/js/main.3048fc55.js"
   ]
 }

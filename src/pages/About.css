@@ -1,0 +1,141 @@
+.about-section {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2.8rem; /* Increased from 2.5rem */
+    margin-bottom: 50px;
+    color: #333;
+    position: relative;
+  }
+  
+  .section-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #7843E9;
+    margin: 15px auto;
+  }
+  
+  .about-content {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  
+  .intro-text {
+    font-size: 1.3rem; /* Increased from 1.1rem */
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .personal-info {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  }
+  
+  .info-heading {
+    font-size: 1.7rem; /* Increased from 1.5rem */
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .info-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .info-list li {
+    margin-bottom: 12px; /* Increased spacing */
+    font-size: 1.2rem; /* Increased from 1rem */
+    color: #555;
+  }
+  
+  .info-list strong {
+    color: #333;
+    min-width: 140px; /* Slightly wider */
+    display: inline-block;
+  }
+  
+  .skills-section {
+    flex: 1;
+  }
+  
+  .skills-heading {
+    font-size: 1.7rem; /* Increased from 1.5rem */
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .skill-category {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  }
+  
+  .skill-category h4 {
+    color: #7843E9;
+    margin-bottom: 15px;
+    font-size: 1.4rem; /* Increased from 1.2rem */
+  }
+  
+  .skill-category ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skill-category li {
+    margin-bottom: 10px; /* Increased spacing */
+    color: #555;
+    font-size: 1.2rem; /* Added font size */
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .skill-category li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: #7843E9;
+  }
+  
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+    }
+    
+    .section-title {
+      font-size: 2.3rem; /* Adjusted for mobile */
+    }
+    
+    .intro-text {
+      font-size: 1.2rem;
+    }
+    
+    .info-list li,
+    .skill-category li {
+      font-size: 1.1rem;
+    }
+  }

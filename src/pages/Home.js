@@ -3,6 +3,7 @@ import { Link } from 'react-scroll';
 import githubLogo from '../assets/svg/github.png';
 import linkedinLogo from '../assets/svg/linkedin.png';
 import codechefLogo from '../assets/svg/codechef.png';
+import ChatBot from '../components/ChatBot';
 
 const Home = () => {
   return (
@@ -67,6 +68,9 @@ const Home = () => {
           </Link>
         </div>
       </div>
+
+      {/* ChatBot Component - Will appear as floating button in bottom right */}
+      <ChatBot />
     </section>
   );
 };
